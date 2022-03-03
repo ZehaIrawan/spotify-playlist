@@ -1,0 +1,840 @@
+{
+  "href": "https://api.spotify.com/v1/users/thomasfrank09/playlists?offset=0&limit=20",
+  "items": [
+    {
+      "collaborative": false,
+      "description": "Pick a task, set a timer, hit play, and get your work done. This is my personal collection of music that I use for focused, deep work.",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/4ETfiRPHVmUFLF6q0g8Fux"
+      },
+      "href": "https://api.spotify.com/v1/playlists/4ETfiRPHVmUFLF6q0g8Fux",
+      "id": "4ETfiRPHVmUFLF6q0g8Fux",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000bebbc61df3df6bb766dbf3f89d15",
+          "width": null
+        }
+      ],
+      "name": "Sunday Study - Thomas Frank's Study Music Selections",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MzEyLDMwZDFmMGRmMzkwYjA4N2NmOTk4Mzg1MGVjMjhkNTRmOWFiMjIwYTM=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/4ETfiRPHVmUFLF6q0g8Fux/tracks",
+        "total": 200
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:4ETfiRPHVmUFLF6q0g8Fux"
+    },
+    {
+      "collaborative": false,
+      "description": "A playlist full of higher-energy music that still works for studying and working. I often use this when I need to crush emails or do something else that doesn&#x27;t require perfect concentration. There&#x27;s a lot of instrumental prog metal on this, bro.",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2uv05vhmfwuj10SpxowihI"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2uv05vhmfwuj10SpxowihI",
+      "id": "2uv05vhmfwuj10SpxowihI",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000bebb163702e39a5e24a71ac48c42",
+          "width": null
+        }
+      ],
+      "name": "High-Energy Study Music (No Vocals)",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NTYsODRlNDE2MTlkYjQ3YWE5ZDZjMGU1YTQ3NjgxMjc0NWUyYjkyMDMxZA==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2uv05vhmfwuj10SpxowihI/tracks",
+        "total": 48
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2uv05vhmfwuj10SpxowihI"
+    },
+    {
+      "collaborative": false,
+      "description": "Proper music for fighting bears",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6sqCVX2kyYrDFz4x15zaBM"
+      },
+      "href": "https://api.spotify.com/v1/playlists/6sqCVX2kyYrDFz4x15zaBM",
+      "id": "6sqCVX2kyYrDFz4x15zaBM",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000bebb08a133f32589200a10437c34",
+          "width": null
+        }
+      ],
+      "name": "Thomas Frank's Workout Playlist",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTc4LDFkYjA2NGI5YjdjZDViNzA5YjE0YjE3MmNlMDU4NTY1MjYyMTNkNDc=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6sqCVX2kyYrDFz4x15zaBM/tracks",
+        "total": 152
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:6sqCVX2kyYrDFz4x15zaBM"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0clSVubgH9f9L6BuqOSZa4"
+      },
+      "href": "https://api.spotify.com/v1/playlists/0clSVubgH9f9L6BuqOSZa4",
+      "id": "0clSVubgH9f9L6BuqOSZa4",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000bebb7959bce6779206172c021bbc",
+          "width": null
+        }
+      ],
+      "name": "2021 Workout",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NzMsNmFhMWFlNmIyYjM0MjI2M2ZkZGJkYmY3ODJmYmNjMWZjZTYxMWRlNw==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0clSVubgH9f9L6BuqOSZa4/tracks",
+        "total": 68
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:0clSVubgH9f9L6BuqOSZa4"
+    },
+    {
+      "collaborative": false,
+      "description": "My personal collection of great work tracks - stuff with vocals that doesn&#x27;t fit my study playlist, but that&#x27;s perfect for crushing emails or working on design projects or whatever.",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6bmP4Blh6nqp6QDrUhhScj"
+      },
+      "href": "https://api.spotify.com/v1/playlists/6bmP4Blh6nqp6QDrUhhScj",
+      "id": "6bmP4Blh6nqp6QDrUhhScj",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000bebbf9a49b1208a0705122646861",
+          "width": null
+        }
+      ],
+      "name": "Work Vibes",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "ODksYThmODkwOGYzMzM5NzkyOGQ4YmFjNjc4ZDVhNDllMmVlMTZmNDA1MA==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6bmP4Blh6nqp6QDrUhhScj/tracks",
+        "total": 41
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:6bmP4Blh6nqp6QDrUhhScj"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/5oBCzOeMwf9GVAygWfUiBa"
+      },
+      "href": "https://api.spotify.com/v1/playlists/5oBCzOeMwf9GVAygWfUiBa",
+      "id": "5oBCzOeMwf9GVAygWfUiBa",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b2736a14cd54972116b2467d4f14",
+          "width": 640
+        }
+      ],
+      "name": "Music Meditation",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTQsNTRiNDM5Nzg5ZmEwMmQ4YTJiNmZmMWQ0ZTMzYmVkOWJhMzBiZjFhMA==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/5oBCzOeMwf9GVAygWfUiBa/tracks",
+        "total": 3
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:5oBCzOeMwf9GVAygWfUiBa"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/66O4rIlPcf4UxLtAM3T3Bp"
+      },
+      "href": "https://api.spotify.com/v1/playlists/66O4rIlPcf4UxLtAM3T3Bp",
+      "id": "66O4rIlPcf4UxLtAM3T3Bp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27353f6b24ab6ba1214f20d47a7ab67616d0000b27357fc4730e06c9ab20c1e073bab67616d0000b2735defafba00e0df77283103e4ab67616d0000b2738ab5e5fecc544f1146d0a956",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27353f6b24ab6ba1214f20d47a7ab67616d0000b27357fc4730e06c9ab20c1e073bab67616d0000b2735defafba00e0df77283103e4ab67616d0000b2738ab5e5fecc544f1146d0a956",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27353f6b24ab6ba1214f20d47a7ab67616d0000b27357fc4730e06c9ab20c1e073bab67616d0000b2735defafba00e0df77283103e4ab67616d0000b2738ab5e5fecc544f1146d0a956",
+          "width": 60
+        }
+      ],
+      "name": "Workout with Anna",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTEsMzY2OGM4YjI4NGM3MTY3MTBiY2JiNzljMWUyNmVkNzA0ODhjOTBlYw==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/66O4rIlPcf4UxLtAM3T3Bp/tracks",
+        "total": 10
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:66O4rIlPcf4UxLtAM3T3Bp"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6SZGM3OrtDM8mHOiMbbnRg"
+      },
+      "href": "https://api.spotify.com/v1/playlists/6SZGM3OrtDM8mHOiMbbnRg",
+      "id": "6SZGM3OrtDM8mHOiMbbnRg",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27336b8b20d156605c4d5d1ee68ab67616d0000b27383f4893147ab774a61d6149cab67616d0000b2738658f987946e60c8d811f21aab67616d0000b273df53d85e2252e6ce67cba99f",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27336b8b20d156605c4d5d1ee68ab67616d0000b27383f4893147ab774a61d6149cab67616d0000b2738658f987946e60c8d811f21aab67616d0000b273df53d85e2252e6ce67cba99f",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27336b8b20d156605c4d5d1ee68ab67616d0000b27383f4893147ab774a61d6149cab67616d0000b2738658f987946e60c8d811f21aab67616d0000b273df53d85e2252e6ce67cba99f",
+          "width": 60
+        }
+      ],
+      "name": "Micah",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "OTAsZGJiODdkMGQ0ZDM4ZjExNzU5ZWNkMGIwYmYwYzFlOGVjZjM3ZTZiOQ==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6SZGM3OrtDM8mHOiMbbnRg/tracks",
+        "total": 40
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:6SZGM3OrtDM8mHOiMbbnRg"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/38z401ilhrtfZuBhkZmDOa"
+      },
+      "href": "https://api.spotify.com/v1/playlists/38z401ilhrtfZuBhkZmDOa",
+      "id": "38z401ilhrtfZuBhkZmDOa",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b2737d7737237b5742e6a8b05b2d",
+          "width": 640
+        }
+      ],
+      "name": "Work On Repeat",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NSw2NDZmNTY1ODAxZmI2ZDM2Yjc5MTQyMWI3OGUzN2UxZTY1OTg0Yzli",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/38z401ilhrtfZuBhkZmDOa/tracks",
+        "total": 3
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:38z401ilhrtfZuBhkZmDOa"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/07bJAk8LoVilQUF392gd58"
+      },
+      "href": "https://api.spotify.com/v1/playlists/07bJAk8LoVilQUF392gd58",
+      "id": "07bJAk8LoVilQUF392gd58",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b27310223efc63645fa8a1cff329",
+          "width": 640
+        }
+      ],
+      "name": "Karaoke Staples",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MixhZjNkNjNmMzlkZGU1Mjk1MzAwMzY5MWZkZGQ1M2M2YzczMmNlYmY0",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/07bJAk8LoVilQUF392gd58/tracks",
+        "total": 1
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:07bJAk8LoVilQUF392gd58"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/4efceQAb5TzdTSFAojmvdx"
+      },
+      "href": "https://api.spotify.com/v1/playlists/4efceQAb5TzdTSFAojmvdx",
+      "id": "4efceQAb5TzdTSFAojmvdx",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27356eb818bf8b60ccac2e6c0c9ab67616d0000b2736b7603c31f133843ea817ffaab67616d0000b273d16d9d89aaa7667dcc1ef742ab67616d0000b273f9bb3fff4e660ec5ba66af40",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27356eb818bf8b60ccac2e6c0c9ab67616d0000b2736b7603c31f133843ea817ffaab67616d0000b273d16d9d89aaa7667dcc1ef742ab67616d0000b273f9bb3fff4e660ec5ba66af40",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27356eb818bf8b60ccac2e6c0c9ab67616d0000b2736b7603c31f133843ea817ffaab67616d0000b273d16d9d89aaa7667dcc1ef742ab67616d0000b273f9bb3fff4e660ec5ba66af40",
+          "width": 60
+        }
+      ],
+      "name": "Singing - Lesson",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTAsYjA4NTVmYTI5NDNkNDk1OTMyYzQyNTRiMDI0OGMwZWRlYjMzMzViZg==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/4efceQAb5TzdTSFAojmvdx/tracks",
+        "total": 8
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:4efceQAb5TzdTSFAojmvdx"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6Jhsz1UrhBCJueZcmOMvgU"
+      },
+      "href": "https://api.spotify.com/v1/playlists/6Jhsz1UrhBCJueZcmOMvgU",
+      "id": "6Jhsz1UrhBCJueZcmOMvgU",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27376bc1c851462191faec76bf8ab67616d0000b2738664c2c92f13ca1edaec10e4ab67616d0000b273a9636c3bb63f70c1590cb109ab67616d0000b273f53f3d46e3a6b2f1b17bed62",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27376bc1c851462191faec76bf8ab67616d0000b2738664c2c92f13ca1edaec10e4ab67616d0000b273a9636c3bb63f70c1590cb109ab67616d0000b273f53f3d46e3a6b2f1b17bed62",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27376bc1c851462191faec76bf8ab67616d0000b2738664c2c92f13ca1edaec10e4ab67616d0000b273a9636c3bb63f70c1590cb109ab67616d0000b273f53f3d46e3a6b2f1b17bed62",
+          "width": 60
+        }
+      ],
+      "name": "Singing - Homework",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTAyLGNjZmI0Zjc4MDM2MzI1MWJmY2U2MTg3ZTI1NTY0OWI0NzdkNGQzZTg=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6Jhsz1UrhBCJueZcmOMvgU/tracks",
+        "total": 87
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:6Jhsz1UrhBCJueZcmOMvgU"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0RFbHSDfJDoo3w6RUkTljY"
+      },
+      "href": "https://api.spotify.com/v1/playlists/0RFbHSDfJDoo3w6RUkTljY",
+      "id": "0RFbHSDfJDoo3w6RUkTljY",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2731f88dd01d30301d6e3b97bbcab67616d0000b27390c25401087648eb9d0f306bab67616d0000b273a9636c3bb63f70c1590cb109ab67616d0000b273c5148520a59be191eea16989",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2731f88dd01d30301d6e3b97bbcab67616d0000b27390c25401087648eb9d0f306bab67616d0000b273a9636c3bb63f70c1590cb109ab67616d0000b273c5148520a59be191eea16989",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2731f88dd01d30301d6e3b97bbcab67616d0000b27390c25401087648eb9d0f306bab67616d0000b273a9636c3bb63f70c1590cb109ab67616d0000b273c5148520a59be191eea16989",
+          "width": 60
+        }
+      ],
+      "name": "Singing - Boss Level",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NywwMTI2NjY5MzEyYjE4YTFlNzU5ZTcxM2FiYWUxZDdjMTU5NWI3MzE3",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0RFbHSDfJDoo3w6RUkTljY/tracks",
+        "total": 5
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:0RFbHSDfJDoo3w6RUkTljY"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/1zzs8kWaoBybGYUlN5VpAp"
+      },
+      "href": "https://api.spotify.com/v1/playlists/1zzs8kWaoBybGYUlN5VpAp",
+      "id": "1zzs8kWaoBybGYUlN5VpAp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b27336836f3554326d9f9a87533f",
+          "width": 640
+        }
+      ],
+      "name": "Singing - Enunciation Practice",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NixiY2NiODg2ZThhYjFiMjg1ZDg0MzExZDdiYmYyYzAzNTNhMDlmZWJi",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1zzs8kWaoBybGYUlN5VpAp/tracks",
+        "total": 4
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:1zzs8kWaoBybGYUlN5VpAp"
+    },
+    {
+      "collaborative": false,
+      "description": "Songs for working on expanding the high side of my vocal range.",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/3KyPKaAjogwlacjwldMqYF"
+      },
+      "href": "https://api.spotify.com/v1/playlists/3KyPKaAjogwlacjwldMqYF",
+      "id": "3KyPKaAjogwlacjwldMqYF",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27357c64851c54e47c39271fd28ab67616d0000b273a9250e237a834437fa7d8739ab67616d0000b273e9c6a673abedd093c35e3eaeab67616d0000b273f296392055a755e593393d02",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27357c64851c54e47c39271fd28ab67616d0000b273a9250e237a834437fa7d8739ab67616d0000b273e9c6a673abedd093c35e3eaeab67616d0000b273f296392055a755e593393d02",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27357c64851c54e47c39271fd28ab67616d0000b273a9250e237a834437fa7d8739ab67616d0000b273e9c6a673abedd093c35e3eaeab67616d0000b273f296392055a755e593393d02",
+          "width": 60
+        }
+      ],
+      "name": "Singing - High Range Training",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NjAsYWJmZTNhMTdlYWMyYjUxZGQyZDBiMDU2Yjg0ZDM2ZjAwMDJjNDdkZA==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/3KyPKaAjogwlacjwldMqYF/tracks",
+        "total": 57
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:3KyPKaAjogwlacjwldMqYF"
+    },
+    {
+      "collaborative": false,
+      "description": "Songs by female vocalists are done an octave down",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/5FhAwczFXwEXvlF9ULKCWp"
+      },
+      "href": "https://api.spotify.com/v1/playlists/5FhAwczFXwEXvlF9ULKCWp",
+      "id": "5FhAwczFXwEXvlF9ULKCWp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b273084051346f432cc68a1279cdab67616d0000b27361d88a72a6ac01c752d825feab67616d0000b2736f4f62da3d811b6501a69ffaab67616d0000b273cb81eb3c1238c60f2bbfd3b5",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b273084051346f432cc68a1279cdab67616d0000b27361d88a72a6ac01c752d825feab67616d0000b2736f4f62da3d811b6501a69ffaab67616d0000b273cb81eb3c1238c60f2bbfd3b5",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b273084051346f432cc68a1279cdab67616d0000b27361d88a72a6ac01c752d825feab67616d0000b2736f4f62da3d811b6501a69ffaab67616d0000b273cb81eb3c1238c60f2bbfd3b5",
+          "width": 60
+        }
+      ],
+      "name": "Singing - Low Range Training",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTAsNDc4MWMzMTc5MGY4ZDAyYjhlNzcwNmIwMDNlZTc1N2ZiMTRjNWZhZg==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/5FhAwczFXwEXvlF9ULKCWp/tracks",
+        "total": 7
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:5FhAwczFXwEXvlF9ULKCWp"
+    },
+    {
+      "collaborative": false,
+      "description": "High vocal range songs specifically meant for falsetto&#x2F;head voice training. ",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6MVgPzehR38OVHz2YpLiX1"
+      },
+      "href": "https://api.spotify.com/v1/playlists/6MVgPzehR38OVHz2YpLiX1",
+      "id": "6MVgPzehR38OVHz2YpLiX1",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2730ccb24c34e7e628f062f4b61ab67616d0000b2739f6588db41475a5cd6694aa0ab67616d0000b273af52c228c9619ff6298b08cdab67616d0000b273bf3545fbdfe037cbf123953f",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2730ccb24c34e7e628f062f4b61ab67616d0000b2739f6588db41475a5cd6694aa0ab67616d0000b273af52c228c9619ff6298b08cdab67616d0000b273bf3545fbdfe037cbf123953f",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2730ccb24c34e7e628f062f4b61ab67616d0000b2739f6588db41475a5cd6694aa0ab67616d0000b273af52c228c9619ff6298b08cdab67616d0000b273bf3545fbdfe037cbf123953f",
+          "width": 60
+        }
+      ],
+      "name": "Singing - Head Voice Training",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTYsNWIwMzliN2EyNmJhM2Y4MTQ1MDgxYzVlYmRhZjY1N2U4Y2RhMjczYw==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6MVgPzehR38OVHz2YpLiX1/tracks",
+        "total": 13
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:6MVgPzehR38OVHz2YpLiX1"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/7dZ80nTUWLL5D2ZCtnkChW"
+      },
+      "href": "https://api.spotify.com/v1/playlists/7dZ80nTUWLL5D2ZCtnkChW",
+      "id": "7dZ80nTUWLL5D2ZCtnkChW",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2730b02af77159866fe3e011c76ab67616d0000b2733e74821ac31253732e0fa71bab67616d0000b2736a14cd54972116b2467d4f14ab67616d0000b27388781d268ea3b5a35518eecc",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2730b02af77159866fe3e011c76ab67616d0000b2733e74821ac31253732e0fa71bab67616d0000b2736a14cd54972116b2467d4f14ab67616d0000b27388781d268ea3b5a35518eecc",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2730b02af77159866fe3e011c76ab67616d0000b2733e74821ac31253732e0fa71bab67616d0000b2736a14cd54972116b2467d4f14ab67616d0000b27388781d268ea3b5a35518eecc",
+          "width": 60
+        }
+      ],
+      "name": "Singing - Easy Songs/Warmups",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MjEsMmQ3MjNjMDAyZDhjYTc0ZGEyNjNkN2Q2ZmNjMDM1MjJlMjQ4OTM1OQ==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/7dZ80nTUWLL5D2ZCtnkChW/tracks",
+        "total": 19
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:7dZ80nTUWLL5D2ZCtnkChW"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2kcfgG0eHGS2qi5oLm3noU"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2kcfgG0eHGS2qi5oLm3noU",
+      "id": "2kcfgG0eHGS2qi5oLm3noU",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27307fbe8ce8e4a75f1c34ff87eab67616d0000b27309600fad56bcdb04ad7defceab67616d0000b273cc5bb1a3f809896baf67dba4ab67616d0000b273ceb9f8b856834df3a0f7eb20",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27307fbe8ce8e4a75f1c34ff87eab67616d0000b27309600fad56bcdb04ad7defceab67616d0000b273cc5bb1a3f809896baf67dba4ab67616d0000b273ceb9f8b856834df3a0f7eb20",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27307fbe8ce8e4a75f1c34ff87eab67616d0000b27309600fad56bcdb04ad7defceab67616d0000b273cc5bb1a3f809896baf67dba4ab67616d0000b273ceb9f8b856834df3a0f7eb20",
+          "width": 60
+        }
+      ],
+      "name": "Singing - Forceful/Support-Heavy Songs",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTIsNGNmMWM2YjBjNzUyMThkMGFhNTAxY2U4MDU5NmI4ZWIzMTZlMDYzNQ==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2kcfgG0eHGS2qi5oLm3noU/tracks",
+        "total": 10
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2kcfgG0eHGS2qi5oLm3noU"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2s7fxq1OsziK3KI9fDtyyb"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2s7fxq1OsziK3KI9fDtyyb",
+      "id": "2s7fxq1OsziK3KI9fDtyyb",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27351729fae66d02122c4951153ab67616d0000b27375cdc6e6e45251f9f983aa40ab67616d0000b273c95c25c00914c09bb806b39eab67616d0000b273fabeff7f98662882a7fe8296",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27351729fae66d02122c4951153ab67616d0000b27375cdc6e6e45251f9f983aa40ab67616d0000b273c95c25c00914c09bb806b39eab67616d0000b273fabeff7f98662882a7fe8296",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27351729fae66d02122c4951153ab67616d0000b27375cdc6e6e45251f9f983aa40ab67616d0000b273c95c25c00914c09bb806b39eab67616d0000b273fabeff7f98662882a7fe8296",
+          "width": 60
+        }
+      ],
+      "name": "Singing - Soft/Breathy Songs",
+      "owner": {
+        "display_name": "Thomas Frank",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/thomasfrank09"
+        },
+        "href": "https://api.spotify.com/v1/users/thomasfrank09",
+        "id": "thomasfrank09",
+        "type": "user",
+        "uri": "spotify:user:thomasfrank09"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NiwyNWY3NjQ3NzZmNjk3MmU5NTIzYThiMjk0MGUxOWIwNWRmZTM3Mjhm",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2s7fxq1OsziK3KI9fDtyyb/tracks",
+        "total": 4
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2s7fxq1OsziK3KI9fDtyyb"
+    }
+  ],
+  "limit": 20,
+  "next": "https://api.spotify.com/v1/users/thomasfrank09/playlists?offset=20&limit=20",
+  "offset": 0,
+  "previous": null,
+  "total": 148
+}
