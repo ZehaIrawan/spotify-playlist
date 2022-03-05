@@ -1,14 +1,27 @@
 import { gql } from 'apollo-server-micro';
+import { GraphQLList,} from 'graphql';
 
 export const typeDefs = gql`
-  type User {
-    id: ID
-    login: String
-    avatar_url: String
+  type UserPlaylist {
+    items: [Playlist]
+  }
+
+  type Playlist {
+    id:String
+    name: String
+    images: [Images]
+    external_urls: ExternalUrls
+  }
+
+  type Images {
+    url: String
+  }
+
+  type ExternalUrls {
+    spotify: String
   }
 
   type Query {
-    getUsers: [User]
-    getUser(name: String!): User!
+    getUserPlaylist: UserPlaylist
   }
 `;

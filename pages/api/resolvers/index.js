@@ -1,29 +1,54 @@
 import axios from 'axios';
 
+const client_credentials = require('./client_credentials');
+
+let awaitingAuthorization;
+
+const headers = {
+  Accept: 'application/json',
+  Authorization: '',
+};
+
+// const spotifyProxy = async ()  => {
+const spotifyProxy = () => {
+    if (awaitingAuthorization && !client_credentials.isExpired()) {
+        // use existing promise, if not expired
+        return awaitingAuthorization;
+    }
+    if (!awaitingAuthorization || client_credentials.isExpired()) {
+        awaitingAuthorization = new Promise((resolve, reject) => {
+            client_credentials.authenticate()
+                .then((token) => {
+                    headers.Authorization = 'Bearer ' + token.access_token;
+                    resolve(headers);
+                })
+                .catch((err) => {
+                    reject(err);
+                });
+        });
+    }
+    return awaitingAuthorization;
+};
+
+const haveHeadersWithAuthToken = async () => {
+    return await spotifyProxy()
+};
+
+const name = 'avenged'
 export const resolvers = {
+
   Query: {
-    getUsers: async () => {
+    getUserPlaylist: async () => {
       try {
-        const users = await axios.get('https://api.github.com/users');
-        return users.data.map(({ id, login, avatar_url }) => ({
-          id,
-          login,
-          avatar_url,
-        }));
-      } catch (error) {
-        throw error;
-      }
-    },
-    getUser: async (_, args) => {
-      try {
-        const user = await axios.get(
-          `https://api.github.com/users/${args.name}`,
+        const response = await axios.get(
+          `https://api.spotify.com/v1/users/thomasfrank09/playlists`,
+          {
+            headers: await haveHeadersWithAuthToken(),
+          },
         );
         return {
-          id: user.data.id,
-          login: user.data.login,
-          avatar_url: user.data.avatar_url,
-        };
+          items:response.data.items
+      }
       } catch (error) {
         throw error;
       }

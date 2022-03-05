@@ -1,8 +1,9 @@
-import Head from 'next/head';
-import playListJson from '../mockup-json/playlist.json'
+import { ApolloClient, gql, InMemoryCache } from '@apollo/client';
 import Playlist from '@components/Playlist';
+import Head from 'next/head';
 
-export default function Home() {
+
+export default function Home({playlist}) {
 
   return (
     <div>
@@ -13,13 +14,47 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className='text-center mt-12 text-2xl font-semibold'>Spotify Playlist</h1>
+        <h1 className="text-center mt-12 text-2xl font-semibold">
+          Spotify Playlist
+        </h1>
         <div className="grid grid-cols-4 mx-auto gap-y-6 gap-x-6 my-12 w-2/3">
-          {playListJson.items.map((item) => (
+          {playlist.items.map((item) => (
             <Playlist key={item.id} item={item} />
           ))}
         </div>
       </main>
     </div>
   );
+}
+
+
+export async function getStaticProps() {
+  const client = new ApolloClient({
+    uri: 'http://localhost:3000/api/graphql/',
+    cache: new InMemoryCache(),
+  });
+  const { data } = await client.query({
+    query: gql`
+      query {
+        getUserPlaylist {
+          items {
+            id,
+            external_urls {
+              spotify
+            },
+            name
+            images {
+              url
+            }
+          }
+        }
+      }
+    `,
+  });
+
+  return {
+    props: {
+     playlist: data.getUserPlaylist,
+    },
+  };
 }
