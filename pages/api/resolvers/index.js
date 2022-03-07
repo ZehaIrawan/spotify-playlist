@@ -11,32 +11,31 @@ const headers = {
 
 // const spotifyProxy = async ()  => {
 const spotifyProxy = () => {
-    if (awaitingAuthorization && !client_credentials.isExpired()) {
-        // use existing promise, if not expired
-        return awaitingAuthorization;
-    }
-    if (!awaitingAuthorization || client_credentials.isExpired()) {
-        awaitingAuthorization = new Promise((resolve, reject) => {
-            client_credentials.authenticate()
-                .then((token) => {
-                    headers.Authorization = 'Bearer ' + token.access_token;
-                    resolve(headers);
-                })
-                .catch((err) => {
-                    reject(err);
-                });
-        });
-    }
+  if (awaitingAuthorization && !client_credentials.isExpired()) {
+    // use existing promise, if not expired
     return awaitingAuthorization;
+  }
+  if (!awaitingAuthorization || client_credentials.isExpired()) {
+    awaitingAuthorization = new Promise((resolve, reject) => {
+      client_credentials
+        .authenticate()
+        .then((token) => {
+          headers.Authorization = 'Bearer ' + token.access_token;
+          resolve(headers);
+        })
+        .catch((err) => {
+          reject(err);
+        });
+    });
+  }
+  return awaitingAuthorization;
 };
 
 const haveHeadersWithAuthToken = async () => {
-    return await spotifyProxy()
+  return await spotifyProxy();
 };
 
-const name = 'avenged'
 export const resolvers = {
-
   Query: {
     getUserPlaylist: async () => {
       try {
@@ -47,11 +46,28 @@ export const resolvers = {
           },
         );
         return {
-          items:response.data.items
-      }
+          items: response.data.items,
+        };
       } catch (error) {
         throw error;
       }
     },
+
+    getPlaylistItems: async () => {
+      try {
+        const response = await axios.get(
+          `https://api.spotify.com/v1/playlists/4ETfiRPHVmUFLF6q0g8Fux`,
+          {
+            headers: await haveHeadersWithAuthToken(),
+          },
+        );
+        // console.log(response.data.tracks.items[0].track.album.name);
+        return {
+          items: response.data.tracks.items,
+        };
+      } catch (error) {
+        throw error;
+      }
   },
+}
 };

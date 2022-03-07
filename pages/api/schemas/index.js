@@ -1,5 +1,5 @@
 import { gql } from 'apollo-server-micro';
-import { GraphQLList,} from 'graphql';
+import { GraphQLList } from 'graphql';
 
 export const typeDefs = gql`
   type UserPlaylist {
@@ -7,7 +7,7 @@ export const typeDefs = gql`
   }
 
   type Playlist {
-    id:String
+    id: String
     name: String
     images: [Images]
     external_urls: ExternalUrls
@@ -21,7 +21,27 @@ export const typeDefs = gql`
     spotify: String
   }
 
+  type PlayListDetails {
+    name: String
+    id: String
+    added_at: String
+    track: Track
+  }
+
+  type Track {
+    album: Album
+  }
+
+  type Album {
+    name: String
+  }
+
+  type Tracks {
+    items: [PlayListDetails]
+  }
+
   type Query {
     getUserPlaylist: UserPlaylist
+    getPlaylistItems: Tracks
   }
 `;

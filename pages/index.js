@@ -18,7 +18,7 @@ export default function Home({playlist}) {
           Spotify Playlist
         </h1>
         <div className="grid grid-cols-4 mx-auto gap-y-6 gap-x-6 my-12 w-2/3">
-          {playlist.items.map((item) => (
+          {playlist?.items.map((item) => (
             <Playlist key={item.id} item={item} />
           ))}
         </div>
