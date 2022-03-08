@@ -30,9 +30,15 @@ export const typeDefs = gql`
 
   type Track {
     album: Album
+    name: String
   }
 
   type Album {
+    name: String
+    artists: [Artists]
+  }
+
+  type Artists {
     name: String
   }
 
