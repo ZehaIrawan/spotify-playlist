@@ -15,6 +15,8 @@ export const typeDefs = gql`
 
   type Images {
     url: String
+    height: Int
+    width: Int
   }
 
   type ExternalUrls {
@@ -31,11 +33,13 @@ export const typeDefs = gql`
   type Track {
     album: Album
     name: String
+    duration_ms: Int
   }
 
   type Album {
     name: String
     artists: [Artists]
+    images: Images
   }
 
   type Artists {
