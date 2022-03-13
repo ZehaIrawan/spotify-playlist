@@ -53,21 +53,20 @@ export const resolvers = {
       }
     },
 
-    getPlaylistItems: async () => {
+    getPlaylistItems: async (_, { playlistId }) => {
       try {
         const response = await axios.get(
-          `https://api.spotify.com/v1/playlists/4ETfiRPHVmUFLF6q0g8Fux`,
+          `https://api.spotify.com/v1/playlists/${playlistId}`,
           {
             headers: await haveHeadersWithAuthToken(),
           },
         );
-        // console.log(response.data.tracks.items[0].track.album.name);
         return {
           items: response.data.tracks.items,
         };
       } catch (error) {
         throw error;
       }
+    },
   },
-}
 };

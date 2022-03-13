@@ -52,6 +52,6 @@ export const typeDefs = gql`
 
   type Query {
     getUserPlaylist: UserPlaylist
-    getPlaylistItems: Tracks
+    getPlaylistItems(playlistId: String!): Tracks
   }
 `;

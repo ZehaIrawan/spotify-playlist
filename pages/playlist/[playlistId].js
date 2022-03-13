@@ -47,7 +47,7 @@ const PlaylistPage = ({ playlist }) => {
 
 export default PlaylistPage;
 
-export async function getServerSideProps() {
+export async function getServerSideProps(context) {
   const client = new ApolloClient({
     uri: 'http://localhost:3000/api/graphql/',
     cache: new InMemoryCache(),
@@ -55,7 +55,7 @@ export async function getServerSideProps() {
   const { data } = await client.query({
     query: gql`
       query {
-        getPlaylistItems {
+        getPlaylistItems(playlistId: "${context.query.playlistId}") {
           items {
             added_at
             track {
@@ -71,7 +71,10 @@ export async function getServerSideProps() {
           }
         }
       }
-    `,
+    `
+    // variables: {
+    //   playlistId: context.query.playlistId,
+    // }
   });
 
   return {
