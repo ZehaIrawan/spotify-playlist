@@ -6,6 +6,13 @@ const PlaylistPage = ({ playlist }) => {
   const router = useRouter();
   const { playlistId } = router.query;
 
+  function millisToMinutesAndSeconds(millis) {
+    let minutes = Math.floor(millis / 60000);
+    let seconds = ((millis % 60000) / 1000).toFixed(0);
+    return minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
+  }
+
+
   return (
       <table className="table-auto">
         <thead>
@@ -30,13 +37,11 @@ const PlaylistPage = ({ playlist }) => {
                     <p>{item.track.album.artists[0].name}</p>
                   </td>
 
+                  <td> {item.track.album.name}</td>
 
-                    <td> {item.track.album.name}</td>
+                  <td>{item.added_at}</td>
 
-                    <td>{item.added_at}</td>
-
-
-                    <td>{item.track.duration_ms}</td>
+                  <td>{millisToMinutesAndSeconds(item.track.duration_ms)}</td>
                 </tr>
               );
             })}
@@ -72,9 +77,6 @@ export async function getServerSideProps(context) {
         }
       }
     `
-    // variables: {
-    //   playlistId: context.query.playlistId,
-    // }
   });
 
   return {
