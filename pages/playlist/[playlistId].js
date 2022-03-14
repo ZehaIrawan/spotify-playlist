@@ -1,6 +1,8 @@
 import { ApolloClient, gql, InMemoryCache } from '@apollo/client';
 import { useRouter } from 'next/router';
 import React from 'react';
+import moment from 'moment';
+
 
 const PlaylistPage = ({ playlist }) => {
   const router = useRouter();
@@ -39,7 +41,7 @@ const PlaylistPage = ({ playlist }) => {
 
                   <td> {item.track.album.name}</td>
 
-                  <td>{item.added_at}</td>
+                  <td>{moment(item.added_at).format("MMM D, YYYY")}</td>
 
                   <td>{millisToMinutesAndSeconds(item.track.duration_ms)}</td>
                 </tr>
