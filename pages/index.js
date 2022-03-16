@@ -28,7 +28,7 @@ export default function Home({playlist}) {
 }
 
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const client = new ApolloClient({
     uri: 'http://localhost:3000/api/graphql/',
     cache: new InMemoryCache(),
