@@ -29,8 +29,13 @@ export default function Home({playlist}) {
 
 
 export async function getServerSideProps() {
+
+  const env = process.env.NODE_ENV;
   const client = new ApolloClient({
-    uri: 'http://localhost:3000/api/graphql/',
+    uri:
+      env === 'production'
+        ? 'https://spotify-playlist-pi.vercel.app/api/graphql'
+        : 'http://localhost:3000/api/graphql',
     cache: new InMemoryCache(),
   });
   const { data } = await client.query({
