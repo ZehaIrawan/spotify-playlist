@@ -1,7 +1,7 @@
 import { ApolloClient, gql, InMemoryCache } from '@apollo/client';
+import moment from 'moment';
 import { useRouter } from 'next/router';
 import React from 'react';
-import moment from 'moment';
 
 
 const PlaylistPage = ({ playlist }) => {
@@ -16,39 +16,39 @@ const PlaylistPage = ({ playlist }) => {
 
 
   return (
-      <table className="table-auto">
-        <thead>
-          <tr className='text-left'>
-            <th>#</th>
-            <th>TITLE</th>
-            <th>ALBUM</th>
-            <th>DATE ADDED</th>
-            <th>Duration</th>
-          </tr>
-        </thead>
-        <tbody>
+    <table className="w-full table-fixed mx-6">
+      <thead>
+        <tr className="text-left">
+          <th className="w-12">#</th>
+          <th>TITLE</th>
+          <th>ALBUM</th>
+          <th>DATE ADDED</th>
+          <th>Duration</th>
+        </tr>
+      </thead>
+      <tbody>
+        {playlist &&
+          playlist.items.map((item, index) => {
+            return (
+              <tr key={index} className="hover:bg-red-200">
+                <td>{index}</td>
+                <td className="flex flex-col">
+                  <p className="text-md truncate">{item.track.name}</p>
+                  <p className="text-sm truncate">
+                    {item.track.album.artists[0].name}
+                  </p>
+                </td>
 
+                <td> {item.track.album.name}</td>
 
-          {playlist &&
-            playlist.items.map((item, index) => {
-              return (
-                <tr key={index}>
-                  <td>{index}</td>
-                  <td className="flex flex-col">
-                    <p>{item.track.name}</p>
-                    <p>{item.track.album.artists[0].name}</p>
-                  </td>
+                <td>{moment(item.added_at).format('MMM D, YYYY')}</td>
 
-                  <td> {item.track.album.name}</td>
-
-                  <td>{moment(item.added_at).format("MMM D, YYYY")}</td>
-
-                  <td>{millisToMinutesAndSeconds(item.track.duration_ms)}</td>
-                </tr>
-              );
-            })}
-        </tbody>
-      </table>
+                <td>{millisToMinutesAndSeconds(item.track.duration_ms)}</td>
+              </tr>
+            );
+          })}
+      </tbody>
+    </table>
   );
 };
 

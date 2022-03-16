@@ -47,8 +47,12 @@ export const typeDefs = gql`
   }
 
   type Tracks {
+    images: Images
     items: [PlayListDetails]
+    external_urls: ExternalUrls
   }
+
+
 
   type Query {
     getUserPlaylist: UserPlaylist
